@@ -1,9 +1,15 @@
 # Socket-Programming
-# Socket-Programming
 
 ## Description
 
 This project demonstrates core concepts in socket programming, focusing on creating a multi-threaded server application. The server listens for incoming client connections and, upon accepting a connection, spawns a new thread to handle communication with each client. This design is often used in chat applications, networked games, and distributed systems where multiple clients interact with a central server.
+
+The flow is best demonstrated by the following image:
+
+![Alt text describing the image](./img.png)
+
+image credit - Javatpoint.
+
 
 ## Getting Started
 
@@ -46,11 +52,17 @@ g++ client.cpp -o client
 
 * The output would look like this:
 
+![Alt text describing the image](./server-client.PNG)
+![Alt text describing the image](./mul_thread.PNG)
+
+
   
 
 ## Authors
 
 Srinath Ramachandran - email: Srinath.ramachandran26@gmail.com
+
+Please reach out if you have any suggestions or improvements or ideas on creating any applications.
 
 ## Version History
 
